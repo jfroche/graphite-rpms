@@ -99,7 +99,7 @@ CFLAGS="$RPM_OPT_FLAGS" %{__python} -c 'import setuptools; execfile("setup.py")'
 
 %files
 %defattr(-,root,root,-)
-%doc INSTALL LICENSE PKG-INFO conf/* examples/*
+%doc INSTALL LICENSE conf/* examples/*
 
 %{python_sitelib}/*
 /usr/bin/*

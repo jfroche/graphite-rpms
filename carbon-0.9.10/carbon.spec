@@ -100,7 +100,7 @@ exit 0
 
 %files
 %defattr(-,root,root,-)
-%doc LICENSE PKG-INFO conf/*
+%doc LICENSE conf/*
 
 %{python_sitelib}/*
 /usr/bin/*
